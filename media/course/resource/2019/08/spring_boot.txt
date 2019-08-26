@@ -1,0 +1,38 @@
+创建spring boot工程
+Spring Boot启动程序
+@SpringBootApplication
+	@SpringBootConfiguration
+		@Configuration 表示一个配置类 自动的加入spring容器
+	@EnableAutoConfiguration
+		@EnableConfigurationPackage 自动配置 可以找到所在类的包 会把包和子包加入有spring容器
+		@import 引入三方依赖
+	@ComponentScan 扫描包
+配置文件
+	application.properties
+	application.yml yml的配置
+		server:
+		   port: 8080
+                                student:
+                                   name: fff
+                                   age: 23
+		K:V或者行内写法
+                                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
