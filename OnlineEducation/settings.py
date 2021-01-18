@@ -147,10 +147,10 @@ AUTHENTICATION_BACKENDS = (
 # 发送邮件的配置
 EMAIL_HOST = 'smtp.163.com'  # 主机服务器
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'leoliuwang@163.com'
-EMAIL_HOST_PASSWORD = 'lwasw159357'  # 密码
+EMAIL_HOST_USER = 'xxxx@163.com'
+EMAIL_HOST_PASSWORD = ''  # 密码
 EMAIL_USE_TLS = True
-EMAIL_FROM = 'leoliuwang@163.com'  # 邮箱地址
+EMAIL_FROM = 'xxxxg@163.com'  # 邮箱地址
 
 # 设置上传文件的路径
 MEDIA_URL = '/media/'
